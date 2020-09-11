@@ -21,15 +21,6 @@ class App  extends React.Component{
         this.setState({ isLoading: false });
       });
 
-      /*fetch('https://reactnative.dev/movies.json')
-      .then((response) => response.json())
-      .then((json) => {
-        this.setState({ result: json.movies });
-      })
-      .catch((error) => console.error(error))
-      .finally(() => {
-        this.setState({ isLoading: false });
-      });*/
 
       
   }
